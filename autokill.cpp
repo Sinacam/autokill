@@ -59,7 +59,7 @@ int main(int argc, char** argv)
         " title [seconds]\n"
         "Automatically kill all windows matching title after a delay, "
         "if provided.\n"
-        "Title may be a regex.";
+        "Title may be a ECMAScript regex.";
 
     if(argc != 2 && argc != 3)
     {
